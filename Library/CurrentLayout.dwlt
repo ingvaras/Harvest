@@ -110,7 +110,11 @@ MonoBehaviour:
   m_MinSize: {x: 711, y: 471}
   m_MaxSize: {x: 18006, y: 14021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 66
+=======
+  controlID: 100
+>>>>>>> ab4eb769a21ddb08fe46073a50739623c147c4ba
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -345,7 +349,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: ccfbffff00000000
+=======
+    m_ExpandedIDs: c2fbffff00000000
+>>>>>>> ab4eb769a21ddb08fe46073a50739623c147c4ba
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -532,9 +540,15 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: f2240000
     m_LastClickedID: 9458
     m_ExpandedIDs: 00000000f224000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 9e250000
+    m_LastClickedID: 9630
+    m_ExpandedIDs: 00000000f2240000
+>>>>>>> ab4eb769a21ddb08fe46073a50739623c147c4ba
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
