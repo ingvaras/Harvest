@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Controls : MonoBehaviour {
 
-	private GameObject player;
 	public float speed;
+	private GameObject player;
 	private bool left;
 	private bool right;
 
@@ -16,9 +16,9 @@ public class Controls : MonoBehaviour {
 	}
 
 	void Update() {
-		if(left)
+		if(left && transform.position.x - 0.6f > Camera.main.ScreenToWorldPoint(new Vector3(0, 0, 0)).x)
 			transform.position = Vector2.MoveTowards (transform.position, new Vector2(transform.position.x - 1, transform.position.y), speed * Time.deltaTime);
-		if(right)
+		if(right && transform.position.x + 0.6f < Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 0)).x)
 			transform.position = Vector2.MoveTowards (transform.position, new Vector2(transform.position.x + 1, transform.position.y), speed * Time.deltaTime);
 	}
 		
