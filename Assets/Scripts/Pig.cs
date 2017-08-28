@@ -17,7 +17,7 @@ public class Pig : MonoBehaviour {
 		if (transform.position != targetpos) {
 			transform.position = Vector2.MoveTowards (transform.position, targetpos, 0.1f);
 		} else {
-			targetpos = new Vector3 (transform.position.x, transform.position.y - 10, 0);
+			targetpos = new Vector3 (transform.position.x * transform.right.x, transform.position.y-10, 0);
 			angle ();
 
 		}
