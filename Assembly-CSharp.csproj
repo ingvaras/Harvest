@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Controls.cs" />
+     <Compile Include="Assets\Scripts\Pig.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>C:/Users/Dell/Desktop/Harvester/Harvester/Harvest/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
