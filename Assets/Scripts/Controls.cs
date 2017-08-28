@@ -34,4 +34,11 @@ public class Controls : MonoBehaviour {
 		left = false;
 		right = false;
 	}
+
+	void OnCollisionEnter2D(Collision2D col){
+		Debug.Log (col.gameObject.name);
+		if (col.gameObject.tag == "Enemy") {
+			Destroy (gameObject);
+		}
+	}
 }

@@ -8,7 +8,10 @@ public class Pig : MonoBehaviour {
 	private Vector3 targetpos;
 
 	void Start () {
-		targetpos = GameObject.FindGameObjectWithTag("Player").transform.position;
+		
+		if (GameObject.FindGameObjectWithTag("Player") == null)
+			Destroy (gameObject);
+		else targetpos = GameObject.FindGameObjectWithTag("Player").transform.position;
 		angle ();
 	}
 

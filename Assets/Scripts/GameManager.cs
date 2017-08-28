@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour {
 
 	public GameObject piggy;
 
-	private float Timer = 2.0f;
+	public float Timer = 2.0f;
 
 	void Update () {
 		Timer -= Time.deltaTime;
